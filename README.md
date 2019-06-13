@@ -31,9 +31,8 @@ conda activate avsd
  * Build audio features AENET (output: data_audio.h5) [https://github.com/znaoya/aenet.git][4]
 
 
- * Training: run train.py
- * evaluation: run evaluate.py --use_gt
- * visualize: run viz.py
+ * Training: python train.py
+ * evaluation: python evaluate.py --use_gt
 
 ## If you find this code useful in your research, please consider citing:
 ```
